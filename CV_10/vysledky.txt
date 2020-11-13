@@ -1,0 +1,1 @@
+pocet pismen 72 , pocet cisel 7 , pocet slov 17
