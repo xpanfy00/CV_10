@@ -21,7 +21,7 @@ int main()
 			w = w + numb_of_word(str);
 		}
 
-		printf("pocet pismen %d , pocet cisel %d , pocet slov %d\n", a, n, w);
+		printf("pocet pismen %d , pocet cisel %d , pocet slov: %d\n", a, n, w);
 
 		FILE* end;
 		errno_t errorCode1 = fopen_s(&end, "vysledky.txt", "w");
