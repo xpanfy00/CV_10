@@ -29,7 +29,7 @@ int main()
 			perror("Chyba pri otevirani souboru");
 			return(-1);
 		}
-		fprintf(end, "pocet pismen %d , pocet cisel %d , pocet slov %d\n", a, n, w);
+		fprintf(end, "pocet pismen %d , pocet cisel %d , pocet slov::: %d\n", a, n, w);
 		fclose(end);
 	}
 
